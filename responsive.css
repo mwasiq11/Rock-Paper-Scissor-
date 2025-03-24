@@ -1,0 +1,116 @@
+@media only screen and (max-width:476px) {
+    body {
+
+        background-color: #EBCFB2;
+
+    }
+
+    h1 {
+
+        background-color: #081b31;
+        text-align: center;
+        color: white;
+        height: 3rem;
+        line-height: 3rem;
+
+
+    }
+
+
+    .choice {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .choices_Container {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7rem;
+
+    }
+
+
+}
+
+@media only screen and(max-width:476px) {
+
+
+    .choice:hover {
+        opacity: 0.5 !important;
+        cursor: pointer;
+
+        height: 165px;
+        width: 165px;
+        background-color: #081b31;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+}
+
+@media only screen and(max-width:476px) {
+    .score_board {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        margin-top: 100px;
+
+        font-weight: 500;
+        margin-inline-start: 60px;
+
+    }
+
+    .score_board #user,
+    #computer {
+        font-size: 1rem;
+        margin-right: 20px;
+        margin-right: 16px;
+
+
+    }
+
+    #user_score,
+    #computer_score {
+
+        font-size: 2rem;
+    }
+
+
+}
+
+@media screen {
+    #credit {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 70px;
+        color: #081b31;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6),
+            -3px -3px 5px rgba(255, 255, 255, 0.3);
+        background: linear-gradient(45deg, #2fe7ff, rgb(25, 179, 166));
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        display: inline-block;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+}
+@media screen and (max-width:476px) {
+    #msg{
+        font-size: 25px;
+    }
+    
+}
